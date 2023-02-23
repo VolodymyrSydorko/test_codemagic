@@ -5,6 +5,8 @@
 // **************************************************************************
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
+import 'package:get_it/get_it.dart' as _i1;
+import 'package:injectable/injectable.dart' as _i2;
 import 'package:test_codemagic/blocs/index.dart' as _i11;
 import 'package:test_codemagic/screens/auth/auth_repository.dart' as _i8;
 import 'package:test_codemagic/screens/auth/bloc/auth_bloc.dart' as _i9;
@@ -17,14 +19,12 @@ import 'package:test_codemagic/screens/home/messages/posts/posts_bloc.dart'
 import 'package:test_codemagic/screens/home/messages/posts/posts_repository.dart'
     as _i5;
 import 'package:test_codemagic/screens/login/login_form_bloc.dart' as _i10;
-import 'package:test_codemagic/services/http/http_client.dart' as _i4;
-import 'package:get_it/get_it.dart' as _i1;
-import 'package:injectable/injectable.dart' as _i2;
+import 'package:test_codemagic/services/http/http_client.dart'
+    as _i4; // ignore_for_file: unnecessary_lambdas
 
-/// ignore_for_file: unnecessary_lambdas
-/// ignore_for_file: lines_longer_than_80_chars
+// ignore_for_file: lines_longer_than_80_chars
 extension GetItInjectableX on _i1.GetIt {
-  /// initializes the registration of main-scope dependencies inside of [GetIt]
+  // initializes the registration of main-scope dependencies inside of GetIt
   _i1.GetIt init({
     String? environment,
     _i2.EnvironmentFilter? environmentFilter,
@@ -45,7 +45,7 @@ extension GetItInjectableX on _i1.GetIt {
     return this;
   }
 
-  /// initializes the registration of auth-scope dependencies inside of [GetIt]
+// initializes the registration of auth-scope dependencies inside of GetIt
   _i1.GetIt initAuthScope({_i1.ScopeDisposeFunc? dispose}) {
     return _i2.GetItHelper(this).initScope(
       'auth',
