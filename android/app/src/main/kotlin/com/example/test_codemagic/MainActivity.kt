@@ -1,4 +1,4 @@
-package com.softonix.testcodemagic
+package com.volodymyr.testcodemagic
 
 import io.flutter.embedding.android.FlutterActivity
 

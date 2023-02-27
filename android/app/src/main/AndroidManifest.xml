@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.softonix.testcodemagic">
+    package="com.volodymyr.testcodemagic">
    <application
         android:label="test_codemagic"
         android:name="${applicationName}"
